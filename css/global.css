@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Global.CSS É pra estruturação e comportamento do site e não trazer estilização em si*/
+
+
+/*Header + navbar*/
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.cta-main-container {
+    max-width: 1440px;
+    width: 97%;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+/*cta-container*/
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-block {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 130px 20px;
+    width: 659px;
+}
+
+.cta-btn-container {
+    display: flex;
+    gap: 10px;
+}
+
+/* === Social Media Section === */
+.socialmediacontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 276px;
+  margin-left: 5px;
+  padding-bottom: 50px;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 24px;
+}
+/*Offers Product*/
+
+.offer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 97%;
+    max-width: 1348px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.offer-section p {
+    margin: 15px 5px;
+}
+
+.promo-banner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.promo-banner>img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: 13px 11px 14px -4px rgba(0,0,0,0.2);
+}
+/*footer*/
+footer {
+    margin-top: 20px;
+    
+}
